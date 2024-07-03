@@ -1,0 +1,61 @@
+// Create a Back-End App with JavaScrip // Dog Years
+// In this project, we’re going to practice variables and strings in JavaScript so you can hone your skills and feel confident taking them to the real world. Why? These concepts will help you use your data to output information to your users.
+// Dog Years
+// Dogs mature at a faster rate than human beings. We often say a dog’s age can be calculated in “dog years” to account for their growth compared to a human of the same age. In some ways we could say, time moves quickly for dogs — 8 years in a human’s life equates to 45 years in a dog’s life. How old would you be if you were a dog?
+
+// Here’s how you convert your age from “human years” to “dog years”:
+
+// The first two years of a dog’s life count as 10.5 dog years each.
+// Each year following equates to 4 dog years.
+// Before you start doing the math in your head, let a computer take care of it! With your knowledge of math operators and variables, use JavaScript to convert your human age into dog years.
+
+// If you get stuck during this project or would like to see an experienced developer work through it, click “Get Unstuck“ to see a project walkthrough video.
+
+
+// Task 1: Create a variable named myAge, and set it equal to your age as a number.
+let myAge = 30; // Replace with your age
+
+// Task 2: Create a variable named earlyYears and save the value 2 to it.
+let earlyYears = 2;
+
+// Task 3: Use the multiplication assignment operator to multiply the value saved to earlyYears by 10.5 and reassign it to earlyYears.
+earlyYears *= 10.5;
+
+// Task 4: Subtract 2 from myAge and set it equal to a variable called laterYears.
+let laterYears = myAge - 2;
+
+// Task 5: Multiply the laterYears variable by 4 to calculate the number of dog years accounted for by your later years.
+laterYears *= 4;
+
+// Task 6: Print earlyYears and laterYears to the console.
+console.log(`Early years: ${earlyYears}`);
+console.log(`Later years: ${laterYears}`);
+
+// Task 7: Add earlyYears and laterYears together, and store that in a variable named myAgeInDogYears.
+let myAgeInDogYears = earlyYears + laterYears;
+
+// Task 8: Write your name as a string, call its built-in method .toLowerCase(), and store the result in a variable called myName.
+let myName = 'Brandon'.toLowerCase(); // Replace with your name
+
+// Task 9: Write a console.log statement that displays your name and age in dog years.
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+
+Explanation:
+
+Variables Setup:
+
+myAge: This variable holds your age as a number.
+earlyYears: Initially set to 2 (the first two years of a dog's life).
+laterYears: Calculated by subtracting 2 from myAge, representing the remaining years.
+myAgeInDogYears: Stores the total age in dog years after combining earlyYears and laterYears.
+myName: Your name stored as a lowercase string using .toLowerCase() method.
+Calculations:
+
+earlyYears *= 10.5: Multiplies earlyYears by 10.5 to account for the early years of a dog's life.
+laterYears *= 4: Multiplies laterYears by 4 to account for the remaining years converted to dog years.
+Console Logging:
+
+Outputs the calculated earlyYears and laterYears to the console.
+Displays your name, age in human years, and age in dog years using string interpolation in the console.log statement.
+Completion:
+
